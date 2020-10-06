@@ -1,6 +1,6 @@
 const zopfliAdapter = () => {
   try {
-    const zopfli = require("node-zopfli-es");
+    const zopfli = require("node-zopfli");
     return zopfli;
   } catch (err) {
     const zopfli = require("@gfx/zopfli");
