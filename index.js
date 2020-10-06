@@ -52,7 +52,7 @@ async function compress(program, algorithm) {
     return;
   }
 
-  const globs = addDefaultIgnores();
+  const globs = addDefaultIgnores(program);
 
   const paths = globby.sync([...globs], { onlyFiles: true });
   const start = Date.now();
