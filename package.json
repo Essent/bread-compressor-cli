@@ -1,9 +1,12 @@
 {
-  "name": "bread-compressor-cli",
+  "name": "@essent/bread-compressor-cli",
   "version": "1.1.0",
   "description": "CLI tool compressing static resources with Brotli and Zopfli (gzip)",
   "license": "MIT",
-  "repository": "https://github.com/ralscha/bread-compressor-cli",
+  "repository": "https://github.com/Essent/bread-compressor-cli",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "author": "Ralph Schaer <ralphschaer@gmail.com>",
   "bin": {
     "bread-compressor": "./bin.js"
@@ -13,6 +16,9 @@
     "brotli",
     "gzip"
   ],
+  "scripts": {
+    "release": "np"
+  },
   "main": "index.js",
   "dependencies": {
     "@gfx/zopfli": "1.0.15",
@@ -24,5 +30,8 @@
   },
   "optionalDependencies": {
     "node-zopfli-es": "1.0.6"
+  },
+  "devDependencies": {
+    "np": "^6.5.0"
   }
 }
