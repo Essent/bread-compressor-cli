@@ -1,6 +1,6 @@
 {
   "name": "@essent/bread-compressor-cli",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "CLI tool compressing static resources with Brotli and Zopfli (gzip)",
   "license": "MIT",
   "repository": "https://github.com/Essent/bread-compressor-cli",
